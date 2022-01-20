@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+  <html lang="en"> 
+    <head>
+      <meta charset="utf-8">
+      <!-- resize tag but I always have to look it up-->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Respnosive Page</title>
+      <meta type="description" content="Responsive page for nifty">
+      <link rel="stylesheet" href="style.css"/>
+    </head>
+  <body>
+    <div class="mobile-panel-background"></div>
+    <div class="small-bar">
+      <div class="container">
+        <ul class="nav-social-wrapper">
+          <li class="email"><a class="contact">email</a></li>
+          <li class="phone-number">111.222.3333</li>
+          <!-- I want to use fontawesome for these icons, but I can't get it to work in codepen -->
+          <li><a href="/">Facebook</a></li>  
+          <li><a href="/">Youtube</a></li>  
+          <li><a href="/">Instagram</a></li>
+          <li><a href="/">Twitter</a></li>   
+        </ul>
+      </div>
+      <div class="clearfix"></div>
+    </div><!--hello-bar-->
+    <nav>
+      <div class="container nav-wrapper">
+        <div class="mobile-menu">Ham</div>  
+        <div class="logo-container">
+          <span class="awesome">Awesome</span>
+          <span class="logo">Company</span>
+        </div>
+        <ul class="navigation-container">
+          <div class="mobile-exit">X</div>
+          <li class="" data-submenu="1"><a href="/">link</a></li>
+          <li class="" data-submenu="2"><a href="/">learn</a></li>
+          <li class="" data-submenu="3"><a href="/">resources</a></li>
+          <li class="" data-submenu="4"><a href="/">about</a></li>
+          <li class="" data-submenu="5"><a href="/">about</a></li>
+          <li class="" data-submenu="6"><a href="/">contact</a></li>
+          <li class="" data-submenu="7"><a href="/">contact</a></li>
+          <li class="search" data-submenu="8"><a href="/">search</a></li>
+          <li class="contact" data-submenu="9" ><a href="/">contact</a></li>
+          <ul class="mobile-social-wrapper">
+            <li class="email"><a class="contact">email</a></li>
+            <li class="social"><a href="/">F</a></li>  
+            <li class="social"><a href="/">Y</a></li>  
+            <li class="social"><a href="/">I</a></li>
+            <li class="social"><a href="/">T</a></li>   
+            <li class="mobile-logo">Awesome Company</li>
+            <li class="phone-number">111.222.3333</li>
+          </ul>  
+        </ul>
+      </div><!--container-->  
+      <div class="flyouts">
+        <ul data-submenu="1" class="submenu">
+          <div class="mobile-submenu-back">back</div>
+          <div class="submenu-exit">X</div>
+          <div class="container submenu-wrapper">    
+            <div class="submenu-left-padding">  
+              <div class="column-fourths">    
+                <li><a href="/">sublink</a></li>
+                <li><a href="/">sublink</a></li>
+                <li><a href="/">sublink</a></li>
+                <li><a href="/">sublink</a></li>
+              </div> 
+              <div class="column-fourths">    
+                <li><a href="/">sublink</a></li>
+                <li><a href="/">sublink</a></li>
+                <li><a href="/">sublink</a></li>
+                <li><a href="/">sublink</a></li>
+              </div> 
+              <div class="column-fourths">    
+                <li><a href="/">sublink</a></li>
+                <li><a href="/">sublink</a></li>
+                <li><a href="/">sublink</a></li>
+                <li><a href="/">sublink</a></li>
+              </div> 
+              <div class="column-fourths image-column">
+                <div class="submenu-image-wrapper">
+                  <img class="submenu-image" src="http://via.placeholder.com/265x265" alt="alt"/>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+            </div> 
+          </div><!--container-->    
+        </ul>
+        <ul data-submenu="2" class="submenu">
+          <div class="mobile-submenu-back">back</div>
+          <div class="submenu-exit">X</div>
+          <div class="container submenu-wrapper">    
+            <div class="submenu-left-padding">  
+              <div class="column-fourths">    
+                <li><a href="/">sublink</a></li>
+                <li><a href="/">sublink</a></li>
+                <li><a href="/">sublink</a></li>
+                <li><a href="/">sublink</a></li>
+              </div> 
+              <div class="column-fourths">    
+                <li><a href="/">sublink</a></li>
+                <li><a href="/">sublink</a></li>
+                <li><a href="/">sublink</a></li>
+                <li><a href="/">sublink</a></li>
+              </div> 
+              <div class="column-fourths">    
+              </div> 
+              <div class="column-fourths image-column">
+                <div class="submenu-image-wrapper">
+                  <img class="submenu-image" src="http://via.placeholder.com/265x265" alt="alt">
+                </div>
+              </div>
+              <div class="clearfix"></div>
+            </div> 
+          </div><!--container-->    
+        </ul>
+        <div class="submenu" data-submenu="8">
+          <div class="mobile-submenu-back">back</div>
+          <div class="submenu-exit">X</div>
+          <form action="" class="search-form">
+            <input type="input" placeholder="search..."/>
+            <input type="submit" value="submit" class="search-submit"/>
+          </form>
+        </div>
+      </div><!--flyouts-->  
+    </nav>
+    <!--================ End Navigation ================-->
+    <div class="banner-section">  
+      <div class="background-banner">
+        <div class="banner-background-text"> 
+          <h2 class="banner-background-title">Hello World</h2>
+          <p class="banner-background-subtext">- Subtext Subtext-</div>
+        </div>    
+      </div>
+    </div>  
+    <div class="container home-page-container">  
+      <h1>Responsive Design</h1>
+      <h5 class="table-contents-title">Table of Contents</h5>
+      <ul class="table-contents-items">
+        <li><a href="#todos">Project Requirements</a></li>
+        <li><a href="#origin">Where does it come from?</a></li>
+      </ul>
+
+      <a name="todos"></a>
+      <div class="project-requirements-wrapper">
+        <h3 class="project-requirements-title">Project Requirements</h3>
+        <ul class="">
+          <li>All Responsive</li>
+          <li>Header</li>
+          <li>Footer</li>
+          <li>Content</li>
+        </ul>
+      </div>  
+
+      <a name="origin"></a>
+      <div class="where-comes-from">
+        <h2 class="where-comes-from-title">Where does it come from?</h2>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+      </div>
+
+      <div class="image-layout">
+        <div class="column-thirds column-left">
+          <div class="top-third-half-image">
+            <a href="https://placeholder.com"><img src="http://via.placeholder.com/400x140"></a>
+          </div>
+          <div class="bottom-third-half-image">
+            <a href="https://placeholder.com"><img src="http://via.placeholder.com/400x140"></a>
+          </div>
+        </div>
+        <div class="column-thirds column-middle">
+          <a href="https://placeholder.com"><img src="http://via.placeholder.com/400x300"></a>
+        </div>
+        <div class="column-thirds column-right">
+          <a href="https://placeholder.com"><img src="http://via.placeholder.com/400x300"></a>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+
+     
+    </div><!--container-->  
+    <!--================ End Content ================-->
+
+    <footer>
+      <div class="container">
+        <div class="column-fourths">
+          <h4>Contact Info</h4>
+          <ul class="column-container">
+            <li><span class="contact-title">Email:</span> <span class="contact-info">XXXX@ gmail.com</span></li>
+            <li><span class="contact-title">Phone:</span> <span class="contact-info">111.111.1111 or 222.222.2222</span></li>
+            <li><span class="contact-title">Address:</span> <span class="contact-info">234 E 5677 Ave.<br/> Burley, ID 12345</span></li>
+            <ul class="social-wrapper">
+              <li>F</li>  
+              <li>Y</li>  
+              <li>I</li>
+              <li>T</li> 
+            </ul>
+          </ul>
+        </div>  
+        <div class="column-fourths">
+          <h4>More Links</h4>
+          <ul class="column-container">
+            <li>Footer link</li>
+            <li>Footer link</li>
+            <li>Footer link</li>
+          </ul>
+        </div>
+        <div class="column-fourths">  
+          <h4>Other</h4>
+          <ul class="column-container">
+            <li>Footer link</li>
+            <li>Footer link</li>
+            <li>Footer link</li>
+          </ul>
+        </div>  
+        <div class="column-fourths newsletter-column">
+          <div class="newsletter">
+            <h4>Newsletter</h4>
+            <p class="newsletter-paragraph"> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <form action="" class="newsletter-wrap">
+              <input class="newsletter-input" type="text" value="" placeholder="yourEmail@emailProvider.com"/>
+              <input class="newsletter-submit" type="submit" value="submit"/>
+              <div class="clearfix"></div>
+            </form>
+            <div class="message"></div>
+          </div>
+        </div>  
+        <div class="clearfix"></div>
+      </div>  
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>  
+  </body>
+</html>
