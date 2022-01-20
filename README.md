@@ -1,4 +1,4 @@
-![](https://github.com/lisabroadhead/basicResponsiveLayout/img.png)
+![](https://github.com/lisabroadhead/basicResponsiveLayout/blob/main/img.png)
 
 # basicResponsiveLayout
 Building a reusable skeleton frame of a website 
